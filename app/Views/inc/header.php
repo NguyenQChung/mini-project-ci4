@@ -28,6 +28,10 @@
     <link rel="stylesheet" href="<?= base_url('plugins/daterangepicker/daterangepicker.css') ?>">
     <!-- summernote -->
     <link rel="stylesheet" href="<?= base_url('plugins/summernote/summernote-bs4.min.css') ?>">
+    <!-- icheck bootstrap -->
+    <link rel="stylesheet" href="<?= base_url('plugins/icheck-bootstrap/icheck-bootstrap.min.css') ?>">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="<?= base_url('dist/css/adminlte.min.css') ?>">
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
@@ -46,7 +50,7 @@
                     <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
                 </li>
                 <li class="nav-item d-none d-sm-inline-block">
-                    <a href="index3.html" class="nav-link">Home</a>
+                    <a href="Home" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item d-none d-sm-inline-block">
                     <a href="#" class="nav-link">Contact</a>
