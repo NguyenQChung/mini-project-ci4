@@ -7,8 +7,10 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/Home', 'Home::index');
 
-$routes->get('/Login','Login::index');
+//Routes of Login
+$routes->get('/Login', 'Login::index');
+$routes->post('/Login', 'Login::do_Login');
 
-$routes->get('/Register','Register::index');
+$routes->get('/Register', 'Register::index');
 
-$routes->get('/Tickets','Tickets::index');
+$routes->get('/Tickets', 'Tickets::index');

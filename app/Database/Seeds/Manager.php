@@ -12,7 +12,7 @@ class Manager extends Seeder
             [
                 'email' => 'admin@gmail.com',
                 'name' => 'Admin',
-                'password' => password_hash('password', PASSWORD_DEFAULT), // Thay 'password' bằng mật khẩu mong muốn
+                'password' => password_hash('admin', PASSWORD_DEFAULT), // Thay 'password' bằng mật khẩu mong muốn
                 'role' => 'manager',
             ]
         ];
